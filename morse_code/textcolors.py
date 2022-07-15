@@ -1,6 +1,6 @@
 fg = {
     'BOLD': '\033[01m',
-    'DEFAULT': '\033[39m',
+    'DEFAULT': '\033[00;39m',
     'BLACK': '\033[30m',
     'DARK_RED': '\033[31m',
     'DARK_GREEN': '\033[32m',

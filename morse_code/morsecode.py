@@ -1,4 +1,5 @@
 import sys
+from textcolors import fg
 
 
 class MorseCode:
@@ -108,5 +109,5 @@ class MorseCode:
 
     def exit(self):
         """Exits the program."""
-        print('Goodbye...(*_*)\n')
+        print(f'{fg["DARK_RED"]}{fg["BOLD"]}Goodbye...(*_*){fg["DEFAULT"]}\n')
         sys.exit(0)
