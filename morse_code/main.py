@@ -14,7 +14,7 @@ def main():
             ciphered_message = mc.cipher(message=message)
             print(f': === Morse Code ===\n' \
                 f':>\n' \
-                f': {fg["DARK_CYAN"]}{fg["BOLD"]}{ciphered_message}{fg["DEFAULT"]}\n' \
+                f': {bg["BLACK"]}{fg["DARK_CYAN"]}{fg["BOLD"]}{ciphered_message}{fg["DEFAULT"]}\n' \
                 f':<\n'
                 )
             option = mc.user_option()
@@ -23,7 +23,7 @@ def main():
             deciphered_message = mc.decipher(message=message)
             print(f': === Deciphered Code ===\n' \
                 f':>\n' \
-                f': {fg["DARK_GREEN"]}{fg["BOLD"]}{deciphered_message}{fg["DEFAULT"]}\n' \
+                f': {bg["BLACK"]}{fg["DARK_GREEN"]}{fg["BOLD"]}{deciphered_message}{fg["DEFAULT"]}\n' \
                 f':<\n'
                 )
             option = mc.user_option()
